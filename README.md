@@ -10,3 +10,7 @@ Description of tools within Kali Linux and how to use them
 - <b>Identify devices, services the devices are running, operating systems, and firewalls/filters on a network<b>
 - <b>A port can be in the state of Open(actively listening), Closed(accessible, not listening), or Filtered(cannot determine if open)
 - <b>Must specify the port number or range (-p #)<b>
+- <b>-sU : Scans UDP<b>
+- <b>-sV : probes open ports to determine version info<b>
+- <b>-Pn : Treats all hosts as online (doesn't probe)<b>
+
